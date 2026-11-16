@@ -1,0 +1,231 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagramme exigences Trike" id="TrikeRequirements02">
+    <mxGraphModel dx="5050" dy="2482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="luscDSB9IrIEBaVia80a-302" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=0;startSize=34;fontStyle=1;fontSize=20;" value="Trike" vertex="1">
+          <mxGeometry height="1230" width="2060" x="731.969696969697" y="556.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-303" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=2;fontSize=14;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-00&lt;/b&gt;&lt;br&gt;Le Trike doit permettre un déplacement pratique, sûr, confortable et fiable." vertex="1">
+          <mxGeometry height="105" width="400" x="1561.969696969697" y="611.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-304" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1.5;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-01&lt;/b&gt;&lt;br&gt;Déplacement" vertex="1">
+          <mxGeometry height="115" width="240" x="746.969696969697" y="786.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-305" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="luscDSB9IrIEBaVia80a-304" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-306" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-01.1&lt;/b&gt;&lt;br&gt;Le Trike doit permettre d’avancer." vertex="1">
+          <mxGeometry height="110" width="215" x="786.969696969697" y="981.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-307" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-306" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-308" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-01.2&lt;/b&gt;&lt;br&gt;Le Trike doit permettre de reculer ou de manœuvrer à faible vitesse, si prévu." vertex="1">
+          <mxGeometry height="110" width="215" x="786.969696969697" y="1141.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-309" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-308" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-310" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-01.3&lt;/b&gt;&lt;br&gt;Le Trike doit permettre de tourner et de suivre une trajectoire." vertex="1">
+          <mxGeometry height="110" width="215" x="786.969696969697" y="1301.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-311" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-310" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-312" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-01.4&lt;/b&gt;&lt;br&gt;Le Trike doit pouvoir démarrer et s’arrêter de manière contrôlée." vertex="1">
+          <mxGeometry height="110" width="215" x="786.969696969697" y="1461.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-313" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-312" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-314" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1.5;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-02&lt;/b&gt;&lt;br&gt;Commandes" vertex="1">
+          <mxGeometry height="115" width="240" x="1036.969696969697" y="786.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-315" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="luscDSB9IrIEBaVia80a-314" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-316" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-02.1&lt;/b&gt;&lt;br&gt;L’utilisateur doit pouvoir accélérer progressivement." vertex="1">
+          <mxGeometry height="110" width="215" x="1076.969696969697" y="981.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-317" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-316" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-318" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-02.2&lt;/b&gt;&lt;br&gt;L’utilisateur doit pouvoir régler le niveau d’assistance électrique." vertex="1">
+          <mxGeometry height="110" width="215" x="1076.969696969697" y="1141.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-319" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-318" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-320" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-02.3&lt;/b&gt;&lt;br&gt;L’utilisateur doit pouvoir sélectionner un mode de conduite." vertex="1">
+          <mxGeometry height="110" width="215" x="1076.969696969697" y="1301.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-321" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-320" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-322" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-02.4&lt;/b&gt;&lt;br&gt;Les commandes doivent être accessibles depuis la position de conduite." vertex="1">
+          <mxGeometry height="110" width="215" x="1076.969696969697" y="1461.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-323" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-322" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-324" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1.5;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-03&lt;/b&gt;&lt;br&gt;Sécurité" vertex="1">
+          <mxGeometry height="115" width="240" x="1326.969696969697" y="786.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-325" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="luscDSB9IrIEBaVia80a-324" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-326" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-03.1&lt;/b&gt;&lt;br&gt;Le Trike doit disposer d’un système de freinage efficace." vertex="1">
+          <mxGeometry height="110" width="215" x="1366.969696969697" y="981.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-327" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-326" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-328" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-03.2&lt;/b&gt;&lt;br&gt;Le freinage doit permettre de ralentir et d’immobiliser le Trike." vertex="1">
+          <mxGeometry height="110" width="215" x="1366.969696969697" y="1141.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-329" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-328" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-330" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-03.3&lt;/b&gt;&lt;br&gt;La structure doit assurer la stabilité en utilisation normale." vertex="1">
+          <mxGeometry height="110" width="215" x="1366.969696969697" y="1301.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-331" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-330" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-332" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-03.4&lt;/b&gt;&lt;br&gt;Le Trike doit limiter les risques liés à une accélération involontaire." vertex="1">
+          <mxGeometry height="110" width="215" x="1366.969696969697" y="1461.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-333" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-332" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-334" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1.5;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-04&lt;/b&gt;&lt;br&gt;Visibilité" vertex="1">
+          <mxGeometry height="115" width="240" x="1616.969696969697" y="786.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-335" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="luscDSB9IrIEBaVia80a-334" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-336" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-04.1&lt;/b&gt;&lt;br&gt;L’utilisateur doit pouvoir allumer et éteindre l’éclairage." vertex="1">
+          <mxGeometry height="110" width="215" x="1656.969696969697" y="981.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-337" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-334" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-336" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-338" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-04.2&lt;/b&gt;&lt;br&gt;Le Trike doit comporter un éclairage avant et arrière." vertex="1">
+          <mxGeometry height="110" width="215" x="1656.969696969697" y="1141.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-339" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-334" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-338" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-340" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-04.3&lt;/b&gt;&lt;br&gt;Des éléments réfléchissants doivent améliorer la visibilité." vertex="1">
+          <mxGeometry height="110" width="215" x="1656.969696969697" y="1301.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-341" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-334" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-340" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-342" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-04.4&lt;/b&gt;&lt;br&gt;Les commandes et indicateurs doivent être lisibles." vertex="1">
+          <mxGeometry height="110" width="215" x="1656.969696969697" y="1461.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-343" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-334" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-342" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="901.4" />
+              <mxPoint x="1640" y="1516.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-344" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1.5;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-05&lt;/b&gt;&lt;br&gt;Énergie" vertex="1">
+          <mxGeometry height="115" width="240" x="1906.969696969697" y="786.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-345" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="luscDSB9IrIEBaVia80a-344" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-346" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-05.1&lt;/b&gt;&lt;br&gt;L’utilisateur doit pouvoir consulter le niveau de batterie." vertex="1">
+          <mxGeometry height="110" width="215" x="1946.969696969697" y="981.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-347" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-346" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-348" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-05.2&lt;/b&gt;&lt;br&gt;La batterie doit alimenter les équipements électriques prévus." vertex="1">
+          <mxGeometry height="110" width="215" x="1946.969696969697" y="1141.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-349" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-348" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-350" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-05.3&lt;/b&gt;&lt;br&gt;Le système doit signaler un niveau de batterie faible." vertex="1">
+          <mxGeometry height="110" width="215" x="1946.969696969697" y="1301.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-351" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-350" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-352" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-05.4&lt;/b&gt;&lt;br&gt;La batterie doit pouvoir être rechargée facilement." vertex="1">
+          <mxGeometry height="110" width="215" x="1946.969696969697" y="1461.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-353" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-352" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-354" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1.5;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-06&lt;/b&gt;&lt;br&gt;Confort" vertex="1">
+          <mxGeometry height="115" width="240" x="2196.969696969697" y="786.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-355" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="luscDSB9IrIEBaVia80a-354" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-356" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-06.1&lt;/b&gt;&lt;br&gt;La position de conduite doit être adaptée à l’utilisateur." vertex="1">
+          <mxGeometry height="110" width="215" x="2236.969696969697" y="981.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-357" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-356" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-358" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-06.2&lt;/b&gt;&lt;br&gt;Le siège doit assurer un maintien confortable." vertex="1">
+          <mxGeometry height="110" width="215" x="2236.969696969697" y="1141.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-359" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-358" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-360" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-06.3&lt;/b&gt;&lt;br&gt;Les commandes doivent être simples à comprendre." vertex="1">
+          <mxGeometry height="110" width="215" x="2236.969696969697" y="1301.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-361" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-360" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-362" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-06.4&lt;/b&gt;&lt;br&gt;Le Trike doit limiter les vibrations ressenties pendant le trajet." vertex="1">
+          <mxGeometry height="110" width="215" x="2236.969696969697" y="1461.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-363" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-362" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-364" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1.5;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-07&lt;/b&gt;&lt;br&gt;Entretien et fiabilité" vertex="1">
+          <mxGeometry height="115" width="240" x="2486.969696969697" y="786.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-365" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="luscDSB9IrIEBaVia80a-364" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-366" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-07.1&lt;/b&gt;&lt;br&gt;Les composants doivent être accessibles pour l’entretien courant." vertex="1">
+          <mxGeometry height="110" width="215" x="2526.969696969697" y="981.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-367" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-366" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-368" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-07.2&lt;/b&gt;&lt;br&gt;Les éléments de fixation doivent rester solidement assemblés." vertex="1">
+          <mxGeometry height="110" width="215" x="2526.969696969697" y="1141.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-369" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-368" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-370" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-07.3&lt;/b&gt;&lt;br&gt;Le système électrique doit être protégé contre les défauts d’usage prévus." vertex="1">
+          <mxGeometry height="110" width="215" x="2526.969696969697" y="1301.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-371" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-370" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-372" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=8;strokeWidth=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="«requirement»&lt;br&gt;&lt;b&gt;REQ-07.4&lt;/b&gt;&lt;br&gt;Le Trike doit permettre de repérer facilement une anomalie importante." vertex="1">
+          <mxGeometry height="110" width="215" x="2526.969696969697" y="1461.4242424242425" as="geometry" />
+        </mxCell>
+        <mxCell id="luscDSB9IrIEBaVia80a-373" edge="1" parent="1" source="luscDSB9IrIEBaVia80a-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.083;exitY=1;entryX=0;entryY=0.5;" target="luscDSB9IrIEBaVia80a-372" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
