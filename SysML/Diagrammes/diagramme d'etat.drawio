@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagramme exigences Trike" id="rvJBruD_zBXxTQ5i8ZMh">
+    <mxGraphModel dx="4159" dy="-1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uINGb94vxzjOWoP9jmht-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=0;startSize=30;fontStyle=1;fontSize=16;align=left;spacingLeft=10;" value="stm [Trike] États du Trike" vertex="1">
+          <mxGeometry height="790" width="1910.01" x="742.62" y="4130" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-2" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="782.625" y="4482.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;fontSize=14;" value="&lt;b&gt;Éteint&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;(hors tension)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="852.625" y="4454.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=14;" value="&lt;b&gt;Prêt&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;(allumé, à l’arrêt)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="1252.625" y="4454.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=14;" value="&lt;b&gt;En marche avant&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;(assistance active)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="1652.625" y="4234.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-29" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="uINGb94vxzjOWoP9jmht-8" value="niveau de baterie faible">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1752.6" y="4800" />
+              <mxPoint x="2602.6" y="4800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=14;" value="&lt;b&gt;Manœuvre / marche arrière&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;(faible vitesse)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="1652.625" y="4674.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;fontSize=14;" value="&lt;b&gt;Freinage&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;(ralentissement / immobilisation)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="2052.625" y="4454.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1.5;fontSize=14;" value="&lt;b&gt;Assistance réduite&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;(batterie faible signalée)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="2452.625" y="4234.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;fontSize=14;" value="&lt;b&gt;Défaut / anomalie&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;(signalée à l’utilisateur)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="852.625" y="4234.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;fontSize=14;" value="&lt;b&gt;En charge&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;(batterie en recharge)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="852.625" y="4674.333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-11" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" target="uINGb94vxzjOWoP9jmht-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-12" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=1;exitY=0.2;entryX=0;entryY=0.2;" target="uINGb94vxzjOWoP9jmht-4" value="mise sous tension&lt;br&gt;[batterie suffisante]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-13" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0;exitY=0.8;entryX=1;entryY=0.8;" target="uINGb94vxzjOWoP9jmht-3" value="mise hors tension">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-14" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0;entryY=0.5;" target="uINGb94vxzjOWoP9jmht-5" value="accélération&lt;br&gt;[marche avant]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-15" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.3;exitY=1;entryX=0;entryY=0.8;" target="uINGb94vxzjOWoP9jmht-6" value="sélection marche&lt;br&gt;arrière / manœuvre">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-16" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0;exitY=0.3;entryX=0.8;entryY=1;" target="uINGb94vxzjOWoP9jmht-4" value="arrêt&lt;br&gt;[vitesse nulle]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-17" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=1;exitY=0.8;entryX=0.3;entryY=0;" target="uINGb94vxzjOWoP9jmht-7" value="action sur le frein">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-18" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.8;exitY=0;entryX=1;entryY=0.2;" target="uINGb94vxzjOWoP9jmht-5" value="frein relâché">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-19" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0;exitY=0.8;entryX=1;entryY=0.8;" target="uINGb94vxzjOWoP9jmht-4" value="immobilisé&lt;br&gt;[vitesse nulle]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-20" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" target="uINGb94vxzjOWoP9jmht-8" value="niveau de batterie faible">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-21" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="uINGb94vxzjOWoP9jmht-7" value="action sur le frein">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-22" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.2;exitY=0;entryX=1;entryY=0.5;" target="uINGb94vxzjOWoP9jmht-9" value="anomalie détectée">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-23" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="uINGb94vxzjOWoP9jmht-3" value="mise hors tension">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-24" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.2;exitY=1;entryX=0.2;entryY=0;" target="uINGb94vxzjOWoP9jmht-10" value="chargeur branché">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-25" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.8;exitY=0;entryX=0.8;entryY=1;" target="uINGb94vxzjOWoP9jmht-3" value="charge terminée&lt;br&gt;ou chargeur débranché">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-26" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.292;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="uINGb94vxzjOWoP9jmht-7" value="action sure le frein">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2111" y="4700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uINGb94vxzjOWoP9jmht-27" edge="1" parent="1" source="uINGb94vxzjOWoP9jmht-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.793;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.708;entryDx=0;entryDy=0;entryPerimeter=0;" target="uINGb94vxzjOWoP9jmht-6" value="frein relâché">
+          <mxGeometry relative="1" x="-0.2526" as="geometry">
+            <mxPoint x="1852.625" y="4735.64" as="sourcePoint" />
+            <mxPoint x="1890" y="4770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
